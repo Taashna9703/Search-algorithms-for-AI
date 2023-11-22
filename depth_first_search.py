@@ -28,7 +28,7 @@ def main():
     g.add_edge(1, 2)
     g.add_edge(2, 4)
 
-    print("Depth First Traversal for the given graph (starting from vertex 0):")
+    print("Depth First Traversal for the given graph (starting from vertex 0) is:")
     g.dfs(0)
 
 if __name__ == "__main__":
